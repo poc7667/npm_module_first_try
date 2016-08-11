@@ -1,0 +1,23 @@
+{
+  "name": "@poc/npm_module_first_try",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poc7667/npm_module_first_try.git"
+  },
+  "author": "Poc.hsu <poc7667@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poc7667/npm_module_first_try/issues"
+  },
+  "homepage": "https://github.com/poc7667/npm_module_first_try#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
