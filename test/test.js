@@ -1,7 +1,15 @@
 'use strict';
 
 var expect = require('chai').expect;
-var numFormatter = require('../index');
+var app = require('../index');
+var numFormatter = app.numFormatter;
+
+describe('mathOperation', function() {
+    it('shoul multiply 2 number', function () {
+        var result = app.multiplyTwoNumber(3, 5);
+        expect(result).to.equal(15);
+    })
+});
 
 describe('#numFormatter', function() {
     it('should convert single digits', function() {
