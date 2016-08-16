@@ -6,6 +6,8 @@
  * @param {string} locale
  * @return {string}
  */
+
+// 也可以直接用 exports 當縮寫
 module.exports = function(number, locale) {
     return number.toLocaleString(locale);
 };

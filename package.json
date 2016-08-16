@@ -1,5 +1,5 @@
 {
-  "name": "@poc/npm_module_first_try",
+  "name": "poc_npm_module_first_try",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
